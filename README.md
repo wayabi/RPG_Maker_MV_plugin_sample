@@ -7,7 +7,7 @@ This sample plugin have features below.
 
 1. accacc server start on Game Scene_Map start(server port default is 12345)
 2. show ip_address and port message
-3. if accacc on your phone connect server, play sound per shake
+3. if "accacc" on your phone connect to the server, play SE per shake
 4. phone vibrate per Game Player walk 5 steps
 
 # Usage
