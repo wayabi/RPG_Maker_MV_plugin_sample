@@ -11,7 +11,6 @@ function AccAcc() {
     this.x_power = 0.0;
     this.y_power = 0.0;
     this.z_power = 0.0;
-    this.time_last = new Date().getTime();
 
     this.address_server = "";
     this.port_server = 0;
