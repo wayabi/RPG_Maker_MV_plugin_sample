@@ -43,6 +43,9 @@ function accacc_loop(accacc, time_last) {
         // start accacc server
         accacc.start_server(address, port);
 
+        // show message window. input "address" and "port" inputbox on accacc on your phone.
+        $gameMessage.add("server_ip_address : "+accacc.address_server+"\nserver_port : "+accacc.port_server);
+
         //start accacc data process loop
         var time_last = new Date().getTime();
         accacc_loop(accacc, time_last);

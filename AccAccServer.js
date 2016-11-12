@@ -13,8 +13,8 @@ function AccAcc() {
     this.z_power = 0.0;
     this.time_last = new Date().getTime();
 
-    var address_server = "";
-    var port_server = 0;
+    this.address_server = "";
+    this.port_server = 0;
 
     var server = null;
     var clients = null;
@@ -25,8 +25,8 @@ function AccAcc() {
             address = getLocalAddress().ipv4[0].address;
         }
         
-        address_server = address;
-        port_server = port;
+        this.address_server = address;
+        this.port_server = port;
         var net = require('net');
 
         server = net.createServer();
