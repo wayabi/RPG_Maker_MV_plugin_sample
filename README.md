@@ -12,6 +12,7 @@ This sample plugin have features below.
 
 # Usage
 
+put *.js to <RPG_Maker_dir>/<project_dir>/js/plugins/
 import 2 plugins in this order.
 
 1. AccAccServer.js
